@@ -22,7 +22,7 @@ if (
     userAge > 0 &&
     Number.isInteger(userAge)
     // !isNaN(userKm) && 
-    // !isNaN(userAge)
+    // !isNaN(userAge) -- facoltativi in quanto inserendo Number.isInteger già verifico se il numero inserito è positivo e intero 
     )
 ) {
     // se i valori sono numerici (corretti) 
